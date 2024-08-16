@@ -1,2 +1,2 @@
 # General_Pose_Detection
-Namaste Added
+Web Cam Working Fine,but with image it gives not that accurate prediction.
