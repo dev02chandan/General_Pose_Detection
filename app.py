@@ -7,7 +7,7 @@ import pickle
 # Initialize MediaPipe Pose once
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
-pose = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, model_complexity=2)
+pose = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, model_complexity=1)
 
 # Load pretrained model and scaler
 loaded_model = pickle.load(open("finalmodel", "rb"))
